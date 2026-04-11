@@ -1,0 +1,38 @@
+# Number Plate Detection Project Requirements
+# Clean & production-ready dependencies
+
+# =========================
+# Core AI / Deep Learning
+# =========================
+ultralytics==8.4.18
+torch==2.0.1
+torchvision==0.15.2
+
+# =========================
+# Computer Vision
+# =========================
+opencv-python==4.13.0.92
+numpy==1.23.5
+Pillow==9.4.0
+
+# =========================
+# Visualization
+# =========================
+matplotlib==3.10.8
+
+# =========================
+# Utilities
+# =========================
+PyYAML==6.0.3
+tqdm==4.64.1
+
+# =========================
+# Deployment (Edge / TFLite)
+# =========================
+tflite-runtime==2.14.0
+
+# =========================
+# Optional (only if used in UI/tools)
+# =========================
+PyQt5==5.15.9
+cvzone==1.6.1
