@@ -1,0 +1,6 @@
+train: ../number_plate_dataset/images/training
+val: ../number_plate_dataset/labels/validation
+#number of classes
+nc: 2
+#class names
+names: ['number-plate', 'character']
